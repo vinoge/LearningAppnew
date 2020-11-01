@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="405dp"
+    android:layout_height="match_parent"
+    tools:context=".sci_tissues_plant">
+
+
+    <LinearLayout
+
+        android:layout_width="405dp"
+        android:layout_height="537dp"
+        android:orientation="vertical"
+        android:text="Here will be the question text"
+        android:textColor="#000000"
+        app:layout_constraintEnd_toEndOf="parent"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteY="0dp">
+
+
+        <TextView
+            android:id="@+id/plant_tissues"
+            android:layout_width="350dp"
+            android:layout_height="623dp"
+            android:layout_marginStart="8dp"
+            android:layout_marginLeft="4dp"
+            android:layout_marginTop="8dp"
+            android:layout_marginEnd="8dp"
+            android:layout_marginRight="8dp"
+            android:freezesText="true"
+            android:gravity="center"
+            android:text="Here will be the lessonssss"
+            android:textAlignment="center"
+            android:textColor="@android:color/black"
+            android:textSize="20sp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent" />
+
+    </LinearLayout>
+
+
+    <Button
+        android:id="@+id/button_next"
+        android:layout_width="220dp"
+        android:layout_height="40dp"
+        android:layout_marginEnd="92dp"
+        android:layout_marginRight="92dp"
+        android:layout_marginBottom="24dp"
+        android:background="@drawable/buttonshape"
+        android:freezesText="true"
+        android:gravity="center"
+        android:text="Next"
+        android:textColor="#FFFFFF"
+        android:textSize="28dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        tools:ignore="MissingConstraints,NotSibling" />
+
+    <Button
+        android:id="@+id/button_vocabulary_next"
+        android:layout_width="220dp"
+        android:layout_height="40dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginLeft="8dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginRight="8dp"
+        android:layout_marginBottom="16dp"
+        android:background="@drawable/buttonshape"
+        android:freezesText="true"
+        android:gravity="center"
+        android:text="Vocabulary"
+        android:textColor="#FFFFFF"
+        android:textSize="28dp"
+
+        app:layout_constraintHorizontal_bias="0.496"
+        app:layout_constraintStart_toStartOf="@id/button_next"
+        app:layout_constraintVertical_bias="0.696"
+        tools:ignore="MissingConstraints" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/nb"
+    tools:context=".Maths">
+
+    <ImageButton
+        android:id="@+id/mathslessons"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:onClick="mathslessons"
+        app:layout_constraintBottom_toTopOf="@+id/mQuiz"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/l1" />
+
+    <ImageButton
+        android:id="@+id/mQuiz"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:onClick="mQuiz"
+        app:layout_constraintBottom_toTopOf="@+id/mpastpapers"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/mathslessons"
+        app:srcCompat="@drawable/q1" />
+
+    <ImageButton
+        android:id="@+id/mpastpapers"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:onClick="mathspastpapers"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/mQuiz"
+        app:srcCompat="@drawable/p1" />
+</androidx.constraintlayout.widget.ConstraintLayout>

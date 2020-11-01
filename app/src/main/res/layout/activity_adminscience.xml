@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".adminscience">
+
+    <ImageButton
+        android:id="@+id/sciencelessons"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:onClick="sciencelessons"
+        app:layout_constraintBottom_toTopOf="@+id/sciencequiz"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/slessons" />
+
+    <ImageButton
+        android:id="@+id/sciencequiz"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:onClick="sciencequiz"
+        app:layout_constraintBottom_toTopOf="@+id/SceiencePastPapers"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/sciencelessons"
+        app:srcCompat="@drawable/quiz" />
+
+    <ImageButton
+        android:id="@+id/SceiencePastPapers"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:onClick="SceiencePastPapers"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/sciencequiz"
+        app:srcCompat="@drawable/pastpaper" />
+</androidx.constraintlayout.widget.ConstraintLayout>

@@ -1,0 +1,21 @@
+<resources>
+    <string name="app_name">LearningApp</string>
+    <string name="username">Username</string>
+    <string name="password">Password</string>
+    <string name="login">Login</string>
+    <string name="not_registered">Not Registered?</string>
+    <string name="register">Register</string>
+    <string name="name">Name</string>
+    <string name="email">Email</string>
+    <string name="have_an_account">Have an account?</string>
+    <string-array name="usertype">
+        <item>user</item>
+        <item>mathsadmin</item>
+        <item>scienceadmin</item>
+    </string-array>
+    <string name="answer">answer</string>
+    <string name="playagain">PlayAgain</string>
+    <string name="PlayAgain">PlayAgain</string>
+
+
+</resources>

@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "413397861866",
+    "firebase_url": "https://learningapp-72fc4.firebaseio.com",
+    "project_id": "learningapp-72fc4",
+    "storage_bucket": "learningapp-72fc4.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:413397861866:android:9a479a16cdd3e73d85de93",
+        "android_client_info": {
+          "package_name": "com.example.learningapp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "413397861866-j87aqbm1jhquk93n0juqku8o3e8c1d35.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCYKwc4g7CkYYX1pBuzxi8Xh4XdNEciWf8"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "413397861866-j87aqbm1jhquk93n0juqku8o3e8c1d35.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
